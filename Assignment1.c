@@ -1,23 +1,15 @@
-/*create a function factorial with one int parameter to
- accept no. to calculate and display the factorial of a number.*/
- #include<stdio.h>
- int f(int);
- main()
- {
-     system("cls");
-     int a;
-     printf("Enter number to find factorial:");
-     scanf("%d",&a);
-     f(a);
-     printf("The Factorial of %d is %d",a,f(a));
-     return 0;
- }
- int f(int a)
- {
-     int r=1;
-     for (int i = 1; i <= a; i++)
-     {
-         r=r*i;
-     }
-     return(r);
- }
+/*  to calculate area & circumference    */
+#include <stdio.h>
+int main()
+{
+    system("cls");
+    float r,a,c;
+    printf("Enter Radius to find area and circumference of circle :");
+    scanf("%f",&r);
+    c=2*3.14*r;
+	a=3.14*r*r;
+	printf("\nCircum=%f",c);
+	printf("\nArea=%f",a);
+
+    return 0;
+}
