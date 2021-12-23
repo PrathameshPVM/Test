@@ -1,0 +1,9 @@
+#include <stdio.h>  
+      
+    int main(void) {  
+      enum fruits{mango = 1, strawberry, apple=1};  
+        printf("The value of mango is %d", mango);
+         printf("\nThe value of strawberry is %d", strawberry);  
+        printf("\nThe value of apple is %d", apple);  
+      return 0;  
+    }  
